@@ -1,0 +1,181 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px ;
+}
+
+.logo{
+    padding-left: 70px;
+    width: 5%;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.home {
+    color: red;
+}
+.about {
+    color: blue;
+}
+.contact {
+    color: white;
+}
+.faq {
+    color: rgb(0, 255, 0);
+}
+.navigation a:hover{
+    color: #88cdf6;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    background: url(/img/sailboat.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h1 {
+    color: black;
+    font-size: 4em;
+    font-weight:bold;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.main h3 {
+    color: black;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    outline: black solid 2px;
+    margin-left: 600px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+}
+.main1 {
+    background-color: black;
+} 
+h2 {
+    color: green;
+    text-align: center;
+    padding-top: 10px;
+    /* font-weight: 500; */
+}
+h5 {
+    color: white;
+    padding-top: 10px;
+}
+h6 {
+    padding-top: 3px;
+}
+.one {
+    border-radius: 45px;
+    outline: orangered solid 4px;
+    outline-offset: 3px;
+}
+.one1 {
+    color: orangered;
+}
+.two {
+    border-radius: 45px;
+    outline: rgb(0, 174, 255) solid 4px;
+    outline-offset: 3px;
+}
+.two2 {
+    color: rgb(0, 174, 255);
+}
+.three {
+    border-radius: 45px;
+    outline: white solid 4px;
+    outline-offset: 3px;
+}
+.three3 {
+    color: white;
+}
+.four {
+    border-radius: 45px;
+    outline: green solid 4px;
+    outline-offset: 3px;
+}
+.four4 {
+    color: green;
+}
+.parent{
+    width: 80vw;
+    margin: auto;
+}
+.child {
+    padding-top: 15px;
+    text-align: center;
+    width: 25%;
+    float: left;
+}
+.parent2{
+    width: 80vw;
+    margin: auto;
+}
+h4 {
+    color: orangered;
+    text-align: center;
+    margin-top: 50px;
+}
+.clearfix {
+    clear: both;
+}
+.image  {
+    width: calc((100%-70px)/3);
+    float: left;
+    margin: 10px;
+}
+.parent2 .image {
+    width: 30%;
+}
+img[alt="photo1"]{
+    border-left: solid 10px #7fba00;
+}
+img[alt="photo"]{
+    border-left: solid 10px #01a3f1;
+}
+img[alt="photo2"]{
+    border-left: solid 10px orangered;
+}
